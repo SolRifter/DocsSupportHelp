@@ -51,6 +51,7 @@ MyRootFolder/
 - (If you use Sheet2 or something different like MySecondSheet, USE THAT NAME.)
 <!---->
 - `Example: LINK Excel.Sheet.12 "C:\\Users\\ACER\\Downloads\\TestExcelPrototypeDebug.xlsx" "Sheet2!LiveData3" \a \html`
+- **NOTE:** This example provided is **mine** (**Sol**). Change **ACER** to ur **OS USERNAME** (which can be "**John**", "**Henry**", and many more.), it is also **highly recommended** to change **downloads** to ur **OWN FILE PATH** or preferred to use `Copy as Path`. Change **TextExcelPrototypeDebug** to ur **MS EXCEL FILENAME** as things **may break if it cannot** find that name.
 
 ![ExcelDifferentSheet](/assets/images/ExcelOtherNameSheet.png)
 
