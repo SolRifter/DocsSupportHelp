@@ -4,6 +4,7 @@ Welcome to the project documentation.
 - [ExcelToWord](ExcelToWord.md)
 - [SendingFiles](SendingFiles.md)
 - [WordVariables](WordVariables.md)
+- [Keybinds](KeyBinds.md)
 
 ## About
 This site is powered by GitHub Pages.
