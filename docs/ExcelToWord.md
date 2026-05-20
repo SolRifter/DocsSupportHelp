@@ -65,7 +65,7 @@
 
 # 🧭 Navigation
 <p>
-  <a href="SendingFiles.md" style="float:right;">Next ➡</a>
+  <a href="SendingFiles.html" style="float:right;">Next ➡</a>
 </p>
 
 <br style="clear:both;">
