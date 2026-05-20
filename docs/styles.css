@@ -21,7 +21,7 @@ a {
     color: var(--linkColor);
 }
 
-body, .site-header, .site-footer, .main-content, .dataThemeDark * {
+body, .site-header, .main-content, .dataThemeDark * {
     background-color: var(--bgColor) !important;
     color: var(--textColor) !important;
     transition: background-color 0.3s, color 0.3s;
