@@ -36,3 +36,21 @@
 4. To **sync** it to other **used variables**, select it via dragging the selector or hitting `CTRL+A` to select all via **MS Word**
 5. Hit `F9` to **sync** it.
 6. Hit `ALT+F9` to close the programming changes viewport.
+
+<br/>
+<br/>
+<br/>
+<br/>
+
+---
+
+# 🧭 Navigation
+<p>
+  <a href="SendingFiles.md" style="float:left;">⬅ Previous</a>
+</p>
+
+<br style="clear:both;">
+
+---
+
+[Home](index.md)

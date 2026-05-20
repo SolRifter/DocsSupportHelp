@@ -12,3 +12,22 @@
 1. In the **original** file, **DO NOT HIT CTRL+SHIFT+F9**, as everything may break if so. Well *not really break* but **it will** make reapplying things **much harder** or **worse**.
 2. Simply edit stuff via **MS Excel** as it is already synced.
 3. Just **remember** to open **MS Excel** first before **MS Word**.
+
+<br/>
+<br/>
+<br/>
+<br/>
+
+---
+
+# 🧭 Navigation
+<p>
+  <a href="ExcelToWord.md" style="float:left;">⬅ Previous</a>
+  <a href="WordVariables.md" style="float:right;">Next ➡</a>
+</p>
+
+<br style="clear:both;">
+
+---
+
+[Home](index.md)

@@ -1,6 +1,6 @@
 # 🔁 How to Use ExcelToWord
 > Requirements:
-<!---->
+
 * Save your **Excel** and **Word** files first before continuing
 * Insert a table on **Excel** and follow the steps below:
 * **YOUR FILES AND FOLDERS MUST BE THE EXACT SAME, PLEASE DO A ROOT FOLDER BEFORE SENDING TO OTHER WORKERS**
@@ -55,3 +55,21 @@
 
 # 🤔 DIFFICULTY
 - Is it that **hard**?, not quite of what many think. Follow the **docs**, as u can be helped by it. Your natural instinct would be easier with this.
+
+<br/>
+<br/>
+<br/>
+<br/>
+
+---
+
+# 🧭 Navigation
+<p>
+  <a href="SendingFiles.md" style="float:right;">Next ➡</a>
+</p>
+
+<br style="clear:both;">
+
+---
+
+[Home](index.md)
