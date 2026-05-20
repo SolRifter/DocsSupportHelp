@@ -1,3 +1,4 @@
+<link rel="shortcut icon" type="image/x-icon" href="{{ site.baseurl }}/favicon.ico">
 Welcome to the project documentation.
 
 ## Getting Started
