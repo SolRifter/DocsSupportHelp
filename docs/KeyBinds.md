@@ -80,3 +80,11 @@ The `{ SET }` field allows u to declare **global variables** for ur document. Pr
 5. Hit `F9` to **sync** it.
 
 6. Hit `ALT+F9` to **close** the programming changes viewport.
+
+---
+# 🧭 Navigation
+[Home](index.md)
+
+---
+
+<span style="float: left;">[Previous](SendingFiles.md)</span>
