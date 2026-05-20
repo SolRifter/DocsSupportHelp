@@ -15,7 +15,7 @@
 * `SET VariableName {key}`
 * **NOTE:** {**key**} **cannot** contain spaces, use **-** or **_** or something similar.
 <!---->
-`SET SalesMade "30%"`
+* `SET SalesMade "30%"`
 
 ![CmdLineWordVar](/assets/images/CmdLineVarWord.png)
 
@@ -30,13 +30,13 @@
 2. Declare that variable that u already created.
 * `VariableName`
 <!---->
-`Example: { SalesMade }`
+* `Example: { SalesMade }`
 
 ![CmdlineWordVarUse](/assets/images/CmdLineVarWord&1.png)
 
 3. Hit `F9` to use that variable.
 <!---->
-    Output: 80%
+* `Output: 80%`
 
 ![CmdLineWordOutput](/assets/images/CmdLineVarWord&2.png)
 

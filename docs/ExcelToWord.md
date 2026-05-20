@@ -33,7 +33,7 @@ MyRootFolder/
 <!---->
 * `LINK Excel.Sheet.12 "URL PATH" "TABLE ID" \a \html`
 <!---->
-`Example: LINK Excel.Sheet.12 "C:\\Users\\{UR_OS_USER}\\Downloads\\TestExcelPrototypeDebug.xlsx" "LiveData" \a \html`
+* `Example: LINK Excel.Sheet.12 "C:\\Users\\{UR_OS_USER}\\Downloads\\TestExcelPrototypeDebug.xlsx" "LiveData" \a \html`
 
 ![CmdLineWord](/assets/images/CmdLineStepWord.png)
 
@@ -50,7 +50,7 @@ MyRootFolder/
 <!---->
 - (If you use Sheet2 or something different like MySecondSheet, USE THAT NAME.)
 <!---->
-```Example: LINK Excel.Sheet.12 "C:\\Users\\ACER\\Downloads\\TestExcelPrototypeDebug.xlsx" "Sheet2!LiveData3" \a \html```
+- `Example: LINK Excel.Sheet.12 "C:\\Users\\ACER\\Downloads\\TestExcelPrototypeDebug.xlsx" "Sheet2!LiveData3" \a \html`
 
 ![ExcelDifferentSheet](/assets/images/ExcelOtherNameSheet.png)
 
