@@ -37,7 +37,7 @@ MyRootFolder/
 
 ![CmdLineWord](/assets/images/CmdLineStepWord.png)
 
-3. Afterwards you will now have synced that table via **MS Word to MS Excel**
+3. Afterwards you will now have synced that table via **MS Word to MS Excel**, hit `F9` to **save** changes.
 * **1st NOTE:** You must follow the \ or /, if one pathing is incorrect it will fail.
 * **2nd NOTE:** Once you open **MS Word** Remember to accept **YES** (Usually happens once u open that **MS Word** document file.) in order for the **syncing** to happen, if not it will not sync if ur going to edit it.
 * **3rd NOTE:** On **MacOS**, the path usually follows a ***"/Users/ACER/Downloads/TestExcelPrototypeDebug.xlsx"***, Except we are not going to change the \a \html as those can break if so. (**Not tested, nor confirmed try trial and error.**)

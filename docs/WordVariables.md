@@ -49,7 +49,7 @@
 3. Click on that **variable** and select it's value to change it.
 4. To **sync** it to other **used variables**, select it via dragging the selector or hitting `CTRL+A` to select all via **MS Word**
 5. Hit `F9` to **sync** it.
-6. Hit `ALT+F9` to close the programming changes viewport.
+6. Hit `ALT+F9` to **close** the programming changes viewport.
 
 ![CmdLineWordChange](/assets/images/CmdLineVarWord.png)
 
@@ -61,4 +61,4 @@
 ---
 
 <span style="float: left;">[Previous](SendingFiles.md)</span>
-
+<span style="float: right;">[Next](KeyBinds.md)</span>
