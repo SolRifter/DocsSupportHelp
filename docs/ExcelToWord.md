@@ -28,7 +28,9 @@
 4. Inside **Name Manager**, click **New**
 5. Via *Name*, type what is it's unique identifier (**ID**) and u may freely add a comment if so
 6. Outside **MS Excel** locate the file and hit **COPY URL PATH / COPY AS PATH** or something similar to copy that file's path.
-7. After finishing, **head over** to the next step (**📃 Microsoft Word: Steps**)
+7. After finishing, **head over** to the next step ([**📃 Microsoft Word: Steps**](#-microsoft-word-steps))
+
+![NameManager](../assets/images/ExcelNameManager.png)
 
 ## 📃 Microsoft Word: Steps
 1. Inside **MS Word** hit `CTRL + F9`
@@ -43,23 +45,19 @@
 * **3rd NOTE:** On **MacOS**, the path usually follows a ***"/Users/ACER/Downloads/TestExcelPrototypeDebug.xlsx"***, Except we are not going to change the \a \html as those can break if so. (**Not tested, nor confirmed try trial and error.**)
 
 ### ❓ What if u selected a different sheet?
-1. On **📃 Microsoft Word: Steps | No. 2**, input on the **"TABLE ID"** a **Sheet#!**
+1. On [**📃 Microsoft Word: Steps**](#-microsoft-word-steps) | **No. 2**, input on the **"TABLE ID"** a **Sheet#!**
 * `LINK Excel.Sheet.12 "URL PATH" "SHEET#!TABLE ID" \a \html`
 <!---->
     (If you use Sheet2 or something different like MySecondSheet, USE THAT NAME.)
     Example: LINK Excel.Sheet.12 "C:\\Users\\ACER\\Downloads\\TestExcelPrototypeDebug.xlsx" "Sheet2!LiveData3" \a \html
 
+![ExcelDifferentSheet](../assets/images/ExcelOtherNameSheet.png)
 
 # ⚠️ HOW TO FIX ISSUES
 - If **MS Excel** for some reason **does not** let u open that file again or a new one, firstly go **click READ file** then **exit that file**, next simply go to **Task Manager** and search `Excel` and **delete** that background process, due to cache. Since what we're doing is **overriding current known methods** in **Microsoft**.
 
 # 🤔 DIFFICULTY
 - Is it that **hard**?, not quite of what many think. Follow the **docs**, as u can be helped by it. Your natural instinct would be easier with this.
-
-<br/>
-<br/>
-<br/>
-<br/>
 
 ---
 
