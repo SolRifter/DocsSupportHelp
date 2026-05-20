@@ -17,7 +17,7 @@ document.addEventListener("DOMContentLoaded", () => {
     }
 
     const ENABLE_LIGHT = () => {
-        document.documentElement.classList.remove("dataThemeLight");
+        document.documentElement.classList.remove("dataThemeDark");
         localStorage.removeItem(THEME_STR);
     }
 
