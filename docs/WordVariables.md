@@ -9,7 +9,7 @@
 ## 🆕 Declaring Variables
 1. Hit `CTRL+F9` to open { }, simply add the values provided below and edit them.
 
-![CmdLineWord](../assets/images/CmdLineWord.png)
+![CmdLineWord](/assets/images/CmdLineWord.png)
 
 <!---->
 * `SET VariableName {key}`
@@ -17,7 +17,7 @@
 <!---->
 `SET SalesMade "30%"`
 
-![CmdLineWordVar](../assets/images/CmdLineVarWord.png)
+![CmdLineWordVar](/assets/images/CmdLineVarWord.png)
 
 2. After that, hit `F9` to save it.
 3. Hit `ALT+F9` to **view** programming changes viewport made on **MS Word**
@@ -32,18 +32,18 @@
 <!---->
 `Example: { SalesMade }`
 
-![CmdlineWordVarUse](../assets/images/CmdLineVarWord&1.png)
+![CmdlineWordVarUse](/assets/images/CmdLineVarWord&1.png)
 
 3. Hit `F9` to use that variable.
 <!---->
     Output: 80%
 
-![CmdLineWordOutput](../assets/images/CmdLineVarWord&2.png)
+![CmdLineWordOutput](/assets/images/CmdLineVarWord&2.png)
 
 ## 🟠 Changing Variable Values
 1. Hit `ALT+F9` to view programming changes viewport.
 
-![CmdLineWordViewport](../assets/images/CmdLineVarViewportWord.png)
+![CmdLineWordViewport](/assets/images/CmdLineVarViewportWord.png)
 
 2. Find ur **variable** that u created.
 3. Click on that **variable** and select it's value to change it.
@@ -51,7 +51,7 @@
 5. Hit `F9` to **sync** it.
 6. Hit `ALT+F9` to close the programming changes viewport.
 
-![CmdLineWordChange](../assets/images/CmdLineVarWord.png)
+![CmdLineWordChange](/assets/images/CmdLineVarWord.png)
 
 ---
 
