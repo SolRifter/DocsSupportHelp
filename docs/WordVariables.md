@@ -53,11 +53,6 @@
 
 ![CmdLineWordChange](../assets/images/CmdLineVarWord.png)
 
-<br/>
-<br/>
-<br/>
-<br/>
-
 ---
 
 # 🧭 Navigation

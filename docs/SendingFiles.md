@@ -13,11 +13,6 @@
 2. Simply edit stuff via **MS Excel** as it is already synced.
 3. Just **remember** to open **MS Excel** first before **MS Word**.
 
-<br/>
-<br/>
-<br/>
-<br/>
-
 ---
 
 # 🧭 Navigation
