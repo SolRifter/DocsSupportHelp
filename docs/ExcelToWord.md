@@ -27,7 +27,7 @@
 3. Inside ***Formulas Tab***, click **Name Manager**
 4. Inside **Name Manager**, click **New**
 5. Via *Name*, type what is it's unique identifier (**ID**) and u may freely add a comment if so
-6. Outsidde **MS Excel** locate the file and hit **COPY URL PATH / COPY AS PATH** or something similar to copy that file's path.
+6. Outside **MS Excel** locate the file and hit **COPY URL PATH / COPY AS PATH** or something similar to copy that file's path.
 7. After finishing, **head over** to the next step (**📃 Microsoft Word: Steps**)
 
 ## 📃 Microsoft Word: Steps
@@ -64,12 +64,8 @@
 ---
 
 # 🧭 Navigation
-<p>
-  <a href="/SendingFiles.html" style="float:right;">Next ➡</a>
-</p>
-
-<br style="clear:both;">
+[Home](index.md)
 
 ---
 
-[Home](index.md)
+<span style="float: right;">[Next ➡](SendingFiles.md)</span>
