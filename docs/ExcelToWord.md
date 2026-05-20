@@ -9,17 +9,12 @@
 ## 📂 ROOT FOLDER
 - A **root folder** is basically what is the **main folder** containing each sub-folder known as **children** and inside those children are known as **descendants** which are simply files or other folders.
 <!---->
-    Example
-    Structure:
-    MyRootFolder {Folder}
-        |
-        |——MainProject {Folder}
-        |    |
-        |    |
-        |    (ALL FILES AND OTHER FOLDERS ARE INSIDE HERE)
-        |
-        |
-        (END, NO FILES, ETC ARE IN HERE. JUST THE MAIN PROJECT FOLDER)
+```Example
+Structure:
+MyRootFolder/
+└── MainProject/
+    ├── (all files and other folders are inside here)
+```
 
 ## 📊 Microsoft Excel: Steps
 1. Select your **Table**
@@ -30,7 +25,7 @@
 6. Outside **MS Excel** locate the file and hit **COPY URL PATH / COPY AS PATH** or something similar to copy that file's path.
 7. After finishing, **head over** to the next step ([**📃 Microsoft Word: Steps**](#-microsoft-word-steps))
 
-![NameManager](../assets/images/ExcelNameManager.png)
+![NameManager](../assets/images/ExcelNameManager.png':ignore')
 
 ## 📃 Microsoft Word: Steps
 1. Inside **MS Word** hit `CTRL + F9`
@@ -38,7 +33,8 @@
 <!---->
 * `LINK Excel.Sheet.12 "URL PATH" "TABLE ID" \a \html`
 <!---->
-    Example: LINK Excel.Sheet.12 "C:\\Users\\ACER\\Downloads\\TestExcelPrototypeDebug.xlsx" "LiveData" \a \html
+`Example: LINK Excel.Sheet.12 "C:\\Users\\ACER\\Downloads\\TestExcelPrototypeDebug.xlsx" "LiveData" \a \html`
+
 3. Afterwards you will now have synced that table via **MS Word to MS Excel**
 * **1st NOTE:** You must follow the \ or /, if one pathing is incorrect it will fail.
 * **2nd NOTE:** Once you open **MS Word** Remember to accept **YES** (Usually happens once u open that **MS Word** document file.) in order for the **syncing** to happen, if not it will not sync if ur going to edit it.
@@ -48,8 +44,9 @@
 1. On [**📃 Microsoft Word: Steps**](#-microsoft-word-steps) | **No. 2**, input on the **"TABLE ID"** a **Sheet#!**
 * `LINK Excel.Sheet.12 "URL PATH" "SHEET#!TABLE ID" \a \html`
 <!---->
-    (If you use Sheet2 or something different like MySecondSheet, USE THAT NAME.)
-    Example: LINK Excel.Sheet.12 "C:\\Users\\ACER\\Downloads\\TestExcelPrototypeDebug.xlsx" "Sheet2!LiveData3" \a \html
+- (If you use Sheet2 or something different like MySecondSheet, USE THAT NAME.)
+<!---->
+```Example: LINK Excel.Sheet.12 "C:\\Users\\ACER\\Downloads\\TestExcelPrototypeDebug.xlsx" "Sheet2!LiveData3" \a \html```
 
 ![ExcelDifferentSheet](/assets/images/ExcelOtherNameSheet.png)
 
