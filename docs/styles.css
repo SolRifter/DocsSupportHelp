@@ -2,12 +2,14 @@
     --bgColor: #ffffff;
     --textColor: #24292f;
     --linkColor: #0969da;
+    --glowColor: #b4befe;
 }
 
 .dataThemeDark {
     --bgColor: #0d0d0d;
     --textColor: #c9d1d9;
     --linkColor: #fffc58;
+    --glowColor: #fab387;
 }
 
 html, body {
@@ -30,6 +32,10 @@ body, .site-header, .site-footer, .main-content, .dataThemeDark * {
     color: var(--textColor) !important;
 }
 
+.dataThemeDark a {
+  color: var(--linkColor) !important;
+}
+
 #themeModeToggle {
     cursor: pointer;
     padding: 8px 12px;
@@ -39,14 +45,46 @@ body, .site-header, .site-footer, .main-content, .dataThemeDark * {
     color: inherit;
 }
 
-#themeModeToggle:hover {
-
+#themeModeToggle::before {
+    content: "";
+    position: absolute;
+    top: -4px;
+    left: -4px;
+    right: -4px;
+    bottom: -4px;
+    border: 1px solid var(--linkColor);
+    border-radius: 9px;
+    opacity: 0;
+    transform: scale(0.95);
+    transition: transform 0.2s ease, opacity 0.2s ease;
+    pointer-events: none;
 }
 
-#themeModeToggle::before {
+#themeModeToggle:hover {
+    background-color: rgba(128, 128, 128, 0.1);
+    border-color: var(--linkColor);
+    box-shadow: 0 0 0 3px var(--glowColor);
+}
 
+#themeModeToggle:hover::after {
+    transform: scaleX(1);
+    transform-origin: left;
+}
+
+#themeModeToggle:hover::before {
+    opacity: 0.4;
+    transform: scale(1);
 }
 
 #themeModeToggle::after {
-
+    content: "";
+    position: absolute;
+    bottom: 2px;
+    left: 16px;
+    right: 16px;
+    height: 2px;
+    background-color: var(--linkColor);
+    transform: scaleX(0);
+    transform-origin: right;
+    transition: transform 0.25s ease-out;
 }
