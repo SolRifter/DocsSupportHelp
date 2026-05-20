@@ -75,16 +75,3 @@ body, .site-header, .main-content {
     opacity: 0.4;
     transform: scale(1);
 }
-
-#themeModeToggle::after {
-    content: "";
-    position: absolute;
-    bottom: 2px;
-    left: 16px;
-    right: 16px;
-    height: 2px;
-    background-color: var(--linkColor);
-    transform: scaleX(0);
-    transform-origin: right;
-    transition: transform 0.25s ease-out;
-}
