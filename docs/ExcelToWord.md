@@ -51,7 +51,7 @@
     (If you use Sheet2 or something different like MySecondSheet, USE THAT NAME.)
     Example: LINK Excel.Sheet.12 "C:\\Users\\ACER\\Downloads\\TestExcelPrototypeDebug.xlsx" "Sheet2!LiveData3" \a \html
 
-![ExcelDifferentSheet](../assets/images/ExcelOtherNameSheet.png)
+![ExcelDifferentSheet](/assets/images/ExcelOtherNameSheet.png)
 
 # ⚠️ HOW TO FIX ISSUES
 - If **MS Excel** for some reason **does not** let u open that file again or a new one, firstly go **click READ file** then **exit that file**, next simply go to **Task Manager** and search `Excel` and **delete** that background process, due to cache. Since what we're doing is **overriding current known methods** in **Microsoft**.
