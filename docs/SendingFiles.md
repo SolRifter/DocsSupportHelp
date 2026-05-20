@@ -21,13 +21,10 @@
 ---
 
 # 🧭 Navigation
-<p>
-  <a href="ExcelToWord.md" style="float:left;">⬅ Previous</a>
-  <a href="WordVariables.md" style="float:right;">Next ➡</a>
-</p>
-
-<br style="clear:both;">
+[Home](index.md)
 
 ---
 
-[Home](index.md)
+<span style="float: left;">[Previous](ExcelToWord.md)</span>
+<span style="float: right;">[Next](WordVariables.md)</span>
+

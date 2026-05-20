@@ -68,4 +68,4 @@
 
 ---
 
-<span style="float: right;">[Next ➡](SendingFiles.md)</span>
+<span style="float: left;">[Next](SendingFiles.md)</span>

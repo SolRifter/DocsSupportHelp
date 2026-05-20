@@ -45,12 +45,9 @@
 ---
 
 # 🧭 Navigation
-<p>
-  <a href="SendingFiles.md" style="float:left;">⬅ Previous</a>
-</p>
-
-<br style="clear:both;">
+[Home](index.md)
 
 ---
 
-[Home](index.md)
+<span style="float: left;">[Previous](SendingFiles.md)</span>
+
