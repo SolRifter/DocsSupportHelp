@@ -1,0 +1,26 @@
+:root {
+    --bgColor: #ffffff;
+    --textColor: #24292f;
+    --linkColor: #0969da;
+}
+
+[dataTheme="dark"] {
+    --bgColor: #0d0d0d;
+    --textColor: #c9d1d9;
+    --linkColor: #fffc58;
+}
+
+body, .site-header, .site-footer, .main-content {
+  background-color: var(--bg-color) !important;
+  color: var(--text-color) !important;
+  transition: background-color 0.3s, color 0.3s;
+}
+
+#themeModeToggle {
+    cursor: pointer;
+    padding: 8px 12px;
+    border-radius: 6px;
+    border: 1px solid #ccc;
+    background: transparent;
+    color: inherit;
+}
