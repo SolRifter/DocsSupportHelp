@@ -18,11 +18,13 @@ document.addEventListener("DOMContentLoaded", () => {
 
     const ENABLE_LIGHT = () => {
         document.documentElement.classList.remove("dataThemeDark");
-        localStorage.removeItem(THEME_STR);
+        localStorage.removeItem(THEME_STR, LIGHTMODE);
     }
 
-    if (SAVEDTHEME === "dark" || (!SAVEDTHEME && SYSTEM_PREFERS_DARK)) {
+    if (SAVEDTHEME === "dark") {
         ENABLE_DARK();
+    } else {
+        ENABLE_LIGHT();
     }
 
     // swap
