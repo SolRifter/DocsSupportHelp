@@ -10,7 +10,16 @@
     --linkColor: #fffc58;
 }
 
-body, .site-header, .site-footer, .main-content {
+html, body {
+    background-color: var(--bgColor);
+    color: var(--textColor);
+}
+
+a {
+    color: var(--linkColor);
+}
+
+.site-header, .site-footer, .main-content {
   background-color: var(--bgColor) !important;
   color: var(--textColor) !important;
   transition: background-color 0.3s, color 0.3s;
@@ -23,4 +32,16 @@ body, .site-header, .site-footer, .main-content {
     border: 1px solid #ccc;
     background: transparent;
     color: inherit;
+}
+
+#themeModeToggle:hover {
+
+}
+
+#themeModeToggle::before {
+
+}
+
+#themeModeToggle::after {
+
 }

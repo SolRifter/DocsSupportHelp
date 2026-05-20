@@ -11,17 +11,26 @@ document.addEventListener("DOMContentLoaded", () => {
     const SAVEDTHEME = localStorage.getItem(THEME_STR)
     const SYSTEM_PREFERS_DARK = window.matchMedia("(prefers-color-scheme: dark)").matches;
 
-    if (SAVEDTHEME === "dark" || (!SAVEDTHEME && SYSTEM_PREFERS_DARK)) {
-        document.documentElement.setAttribute("dataTheme", DARKMODE);
-    } else {
-        document.documentElement.setAttribute("dataTheme", LIGHTMODE);
+    const ENABLE_DARK = () => {
+        document.documentElement.classList.add("dataThemeDark");
+        localStorage.setItem(THEME_STR, DARKMODE);
     }
 
-    TOGGLEBTN.addEventListener("click", () => {
-        const CURRENT_THEME = document.documentElement.getAttribute("dataTheme");
-        const NEW_THEME = CURRENT_THEME === DARKMODE ? LIGHTMODE : DARKMODE;
+    const ENABLE_LIGHT = () => {
+        document.documentElement.classList.remove("dataThemeLight");
+        localStorage.removeItem(THEME_STR);
+    }
 
-        document.documentElement.setAttribute("dataTheme", NEW_THEME);
-        localStorage.setItem(THEME_STR, NEW_THEME);
+    if (SAVEDTHEME === "dark" || (!SAVEDTHEME && SYSTEM_PREFERS_DARK)) {
+        ENABLE_DARK();
+    }
+
+    // swap
+    TOGGLEBTN.addEventListener("click", () => {
+        if (document.documentElement.classList.contains("dataThemeDark")) {
+            ENABLE_LIGHT();
+        } else {
+            ENABLE_DARK();
+        }
     })
 });
