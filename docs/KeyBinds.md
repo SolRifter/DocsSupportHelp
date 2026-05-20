@@ -3,7 +3,7 @@
 
 ## 📃 Microsoft Word: Quick Keybinds
 
-* **OS: Microsoft** `F9`: This **saves inputted field codes**.
+* **OS: Microsoft** `F9`: This **updates inputted field codes**.
 * **OS: Microsoft** `ALT+F9`: This **opens and closes the field codes**.
 * **OS: Microsoft** `CTRL+F9`: This opens up `{ }` where `SET` and `LINK` can be used.
 * **OS: Microsoft** `SHIFT+F9`: This opens up **field codes** for the **selected field only**.
