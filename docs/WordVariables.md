@@ -15,7 +15,7 @@
 * `SET VariableName {key}`
 * **NOTE:** {**key**} **cannot** contain spaces, use **-** or **_** or something similar.
 <!---->
-* `SET SalesMade "30%"`
+* `SET SalesMade "80%"`
 
 ![CmdLineWordVar](/assets/images/CmdLineVarWord.png)
 
