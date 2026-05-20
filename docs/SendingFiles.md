@@ -1,3 +1,6 @@
+<link rel="stylesheet" href="styles.css">
+<script src="app.js" defer></script>
+
 # 👤 Sending Files to a Client or a person
 1. To simply send a **MS Excel** to a client, simply send that file to the client.
 2. To send a **MS Word** to a client, it is quite different as we provided these **breakthroughs** that aren't known popularly in the **internet**.
@@ -22,4 +25,9 @@
 
 <span style="float: left;">[Previous](ExcelToWord.md)</span>
 <span style="float: right;">[Next](WordVariables.md)</span>
+
+---
+
+<button id="themeModeToggle">🌗 Toggle Theme</button>
+
 

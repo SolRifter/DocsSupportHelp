@@ -1,3 +1,6 @@
+<link rel="stylesheet" href="styles.css">
+<script src="app.js" defer></script>
+
 # 🔁 How to Use ExcelToWord
 > Requirements:
 
@@ -70,3 +73,7 @@ MyRootFolder/
 ---
 
 <span style="float: right;">[Next](SendingFiles.md)</span>
+
+---
+
+<button id="themeModeToggle">🌗 Toggle Theme</button>

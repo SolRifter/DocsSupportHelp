@@ -1,3 +1,6 @@
+<link rel="stylesheet" href="styles.css">
+<script src="app.js" defer></script>
+
 # ⌨️ Keybinds
 - Highly recommended to view the [**Documentation**](index.md) first before reading below.
 
@@ -89,3 +92,7 @@ The `{ SET }` field allows u to declare **global variables** for ur document. Pr
 ---
 
 <span style="float: left;">[Previous](SendingFiles.md)</span>
+
+---
+
+<button id="themeModeToggle">🌗 Toggle Theme</button>

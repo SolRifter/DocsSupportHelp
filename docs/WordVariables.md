@@ -1,3 +1,6 @@
+<link rel="stylesheet" href="styles.css">
+<script src="app.js" defer></script>
+
 # 📃 How to Use VARIABLES in MS Word
 * **READ:** **VARIABLES** must be **SPECIAL**, if one overlaps with eachother, values may **BREAK**. Be aware of what u provide. That **ALSO** applies to **TEXT**. If a text in ur document contains something, example inside a docs file: `salary`, while you also provide a **variable** named `salary`. Things **WILL BREAK**. Be **CAUTIOUS** of what u type.
 > Requirements:
@@ -62,3 +65,7 @@
 
 <span style="float: left;">[Previous](SendingFiles.md)</span>
 <span style="float: right;">[Next](KeyBinds.md)</span>
+
+---
+
+<button id="themeModeToggle">🌗 Toggle Theme</button>
