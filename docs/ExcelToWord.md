@@ -25,7 +25,7 @@ MyRootFolder/
 6. Outside **MS Excel** locate the file and hit **COPY URL PATH / COPY AS PATH** or something similar to copy that file's path.
 7. After finishing, **head over** to the next step ([**📃 Microsoft Word: Steps**](#-microsoft-word-steps))
 
-![NameManager]({{ site.baseurl }}/assets/images/ExcelNameManager.png)
+![NameManager](/assets/images/ExcelNameManager.png)
 
 ## 📃 Microsoft Word: Steps
 1. Inside **MS Word** hit `CTRL + F9`
