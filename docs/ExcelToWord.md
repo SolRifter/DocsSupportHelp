@@ -41,6 +41,7 @@ MyRootFolder/
 * **1st NOTE:** You must follow the \ or /, if one pathing is incorrect it will fail.
 * **2nd NOTE:** Once you open **MS Word** Remember to accept **YES** (Usually happens once u open that **MS Word** document file.) in order for the **syncing** to happen, if not it will not sync if ur going to edit it.
 * **3rd NOTE:** On **MacOS**, the path usually follows a ***"/Users/ACER/Downloads/TestExcelPrototypeDebug.xlsx"***, Except we are not going to change the \a \html as those can break if so. (**Not tested, nor confirmed try trial and error.**)
+* **4th NOTE:** If u **copy** the path from **Windows**, u must manually **change** every single backslash `\` into a **double backslash** `\\` inside the **MS Word Code** or else it will **fail**.
 
 ![CmdLineOutputWord](/assets/images/CmdLineOutputWord.png)
 
@@ -51,7 +52,7 @@ MyRootFolder/
 - (If you use Sheet2 or something different like MySecondSheet, USE THAT NAME.)
 <!---->
 - `Example: LINK Excel.Sheet.12 "C:\\Users\\ACER\\Downloads\\TestExcelPrototypeDebug.xlsx" "Sheet2!LiveData3" \a \html`
-- **NOTE:** This example provided is **mine** (**Sol**). Change **ACER** to ur **OS USERNAME** (which can be "**John**", "**Henry**", and many more.), it is also **highly recommended** to change **downloads** to ur **OWN FILE PATH** or preferred to use `Copy as Path`. Change **TextExcelPrototypeDebug** to ur **MS EXCEL FILENAME** as things **may break if it cannot** find that name.
+-**NOTE:** This example provided is **mine** (**Sol**). Change **ACER** to ur **OS USERNAME** (which can be "**John** ", "**Henry**", and many more.), it is also **highly recommended** to change **downloads** to ur **OWN FILE PATH** or preferred to use `Copy as Path`. Change **TextExcelPrototypeDebug** to ur **MS EXCEL FILENAME** as things **may break if it cannot** find that name.
 
 ![ExcelDifferentSheet](/assets/images/ExcelOtherNameSheet.png)
 
