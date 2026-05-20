@@ -11,8 +11,8 @@
 }
 
 body, .site-header, .site-footer, .main-content {
-  background-color: var(--bg-color) !important;
-  color: var(--text-color) !important;
+  background-color: var(--bgColor) !important;
+  color: var(--textColor) !important;
   transition: background-color 0.3s, color 0.3s;
 }
 
