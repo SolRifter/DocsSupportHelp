@@ -33,12 +33,16 @@ MyRootFolder/
 <!---->
 * `LINK Excel.Sheet.12 "URL PATH" "TABLE ID" \a \html`
 <!---->
-`Example: LINK Excel.Sheet.12 "C:\\Users\\ACER\\Downloads\\TestExcelPrototypeDebug.xlsx" "LiveData" \a \html`
+`Example: LINK Excel.Sheet.12 "C:\\Users\\{UR_OS_USER}\\Downloads\\TestExcelPrototypeDebug.xlsx" "LiveData" \a \html`
+
+![CmdLineWord](/assets/images/CmdLineStepWord.png)
 
 3. Afterwards you will now have synced that table via **MS Word to MS Excel**
 * **1st NOTE:** You must follow the \ or /, if one pathing is incorrect it will fail.
 * **2nd NOTE:** Once you open **MS Word** Remember to accept **YES** (Usually happens once u open that **MS Word** document file.) in order for the **syncing** to happen, if not it will not sync if ur going to edit it.
 * **3rd NOTE:** On **MacOS**, the path usually follows a ***"/Users/ACER/Downloads/TestExcelPrototypeDebug.xlsx"***, Except we are not going to change the \a \html as those can break if so. (**Not tested, nor confirmed try trial and error.**)
+
+![CmdLineOutputWord](/assets/images/CmdLineOutputWord.png)
 
 ### ❓ What if u selected a different sheet?
 1. On [**📃 Microsoft Word: Steps**](#-microsoft-word-steps) | **No. 2**, input on the **"TABLE ID"** a **Sheet#!**
