@@ -4,7 +4,7 @@
     --linkColor: #0969da;
 }
 
-[dataTheme="dark"] {
+.dataThemeDark {
     --bgColor: #0d0d0d;
     --textColor: #c9d1d9;
     --linkColor: #fffc58;
@@ -19,7 +19,7 @@ a {
     color: var(--linkColor);
 }
 
-.site-header, .site-footer, .main-content {
+body, .site-header, .site-footer, .main-content, .dataThemeDark * {
   background-color: var(--bgColor) !important;
   color: var(--textColor) !important;
   transition: background-color 0.3s, color 0.3s;
