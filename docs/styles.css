@@ -3,6 +3,7 @@
     --textColor: #24292f;
     --linkColor: #0969da;
     --glowColor: #b4befe;
+    --btnBorder: #74c7ec;
 }
 
 .dataThemeDark {
@@ -10,6 +11,7 @@
     --textColor: #c9d1d9;
     --linkColor: #fffc58;
     --glowColor: #fab387;
+    --btnBorder: #eba0ac;
 }
 
 html, body {
@@ -38,11 +40,15 @@ body, .site-header, .main-content {
 
 #themeModeToggle {
     cursor: pointer;
-    padding: 8px 12px;
+    position: relative;
+    display: inline-block;
+    max-width: fit-content;
+    padding: 8px 16px;
     border-radius: 6px;
-    border: 1px solid #ccc;
+    border: 1px solid var(--btnBorder);
     background: transparent;
     color: inherit;
+    transition: background-color 0.2s, border-color 0.2s, box-shadow 0.2s;;
 }
 
 #themeModeToggle::before {
