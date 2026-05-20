@@ -1,8 +1,7 @@
-# 📃 DocsSupportHelp
 Welcome to the project documentation.
 
 ## Getting Started
-- [Setup Guide](ExcelToWord.md)
+- [ExcelToWord](ExcelToWord.md)
 - [SendingFiles](SendingFiles.md)
 - [WordVariables](WordVariables.md)
 
