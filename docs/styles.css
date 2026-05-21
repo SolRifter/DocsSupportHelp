@@ -23,7 +23,7 @@ a {
     color: var(--linkColor);
 }
 
-body, .site-header, .main-content {
+body, .main-content {
     background-color: var(--bgColor) !important;
     color: var(--textColor) !important;
     transition: background-color 0.3s, color 0.3s;
