@@ -4,6 +4,8 @@
     --linkColor: #0969da;
     --glowColor: #b4befe;
     --btnBorder: #74c7ec;
+
+    --transitionTime: 0.3s;
 }
 
 .dataThemeDark {
@@ -14,22 +16,18 @@
     --btnBorder: #eba0ac;
 }
 
-html, body {
-    background-color: var(--bgColor);
-    color: var(--textColor);
+html, body, .main-content {
+    background-color: var(--bgColor) !important;
+    color: var(--textColor) !important;
+    transition: background-color var(--transitionTime), color var(--transitionTime);
 }
 
 a {
     color: var(--linkColor);
+    transition: color var(--transitionTime);
 }
 
-body, .main-content {
-    background-color: var(--bgColor) !important;
-    color: var(--textColor) !important;
-    transition: background-color 0.3s, color 0.3s;
-}
-
-.dataThemeDark {
+.dataThemeDark, .dataThemeDark * {
     background-color: var(--bgColor) !important;
     color: var(--textColor) !important;
 }
@@ -48,7 +46,20 @@ body, .main-content {
     border: 1px solid var(--btnBorder);
     background: transparent;
     color: inherit;
-    transition: background-color 0.2s, border-color 0.2s, box-shadow 0.2s;;
+    transition: background-color var(--transitionTime), border-color var(--transitionTime), var(--transitionTime);
+}
+
+#themeModeToggle::after {
+    content: "";
+    position: absolute;
+    bottom: 2px;
+    left: 16px;
+    right: 16px;
+    height: 2px;
+    background-color: var(--linkColor);
+    transform: scaleX(0);
+    transform-origin: right;
+    transition: transform var(--transitionTime) ease-out;
 }
 
 #themeModeToggle::before {
@@ -62,7 +73,7 @@ body, .main-content {
     border-radius: 9px;
     opacity: 0;
     transform: scale(0.95);
-    transition: transform 0.2s ease, opacity 0.2s ease;
+    transition: transform var(--transitionTime) ease, opacity var(--transitionTime) ease;
     pointer-events: none;
 }
 
