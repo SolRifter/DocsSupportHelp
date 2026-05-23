@@ -1,3 +1,8 @@
+---
+layout: default
+title: KeyBinds
+---
+
 <link rel="stylesheet" href="styles.css">
 <script src="app.js" defer></script>
 

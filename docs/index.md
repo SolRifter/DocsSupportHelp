@@ -1,13 +1,10 @@
 ---
 layout: default
-title: Legacy MSWE Docs
+title: Legacy MSW&E Docs
 ---
-<link rel="icon" type="image/png" href="./assets/favicon.png">
 
 <link rel="stylesheet" href="styles.css">
 <script src="app.js" defer></script>
-
-
 
 Welcome to the project documentation.
 
