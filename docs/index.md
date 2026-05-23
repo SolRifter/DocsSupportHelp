@@ -1,7 +1,14 @@
+---
+layout: default
+title: Legacy MSWE Docs
+---
+
 <link rel="stylesheet" href="styles.css">
 <script src="app.js" defer></script>
 
-<link rel="icon" type="image/png" href="./assets/favicon.png">
+<head>
+    <link rel="icon" type="image/png" href="./assets/favicon.png">
+</head>
 
 Welcome to the project documentation.
 
