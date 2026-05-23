@@ -2,7 +2,7 @@
 <script src="app.js" defer></script>
 
 <button id="themeModeToggle">🌗 Toggle Theme</button>
-<link rel="icon" type="image/png" href="/assets/favicon.png">
+<link rel="icon" type="image/png" href="./assets/favicon.png">
 
 Welcome to the project documentation.
 
